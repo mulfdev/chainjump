@@ -1,4 +1,4 @@
-# Specification: Distributed Cross-Chain Order Processor (Cross Swap)
+# Specification: Distributed Cross-Chain Order Processor (ChainJump)
 
 ## System Overview
 
