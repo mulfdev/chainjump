@@ -1007,6 +1007,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "chainjump"
+version = "0.1.0"
+dependencies = [
+ "alloy",
+ "axum",
+ "serde_json",
+ "tokio",
+]
+
+[[package]]
 name = "const-hex"
 version = "1.13.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1048,16 +1058,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "608697df725056feaccfa42cffdaeeec3fccc4ffc38358ecd19b243e716a78e0"
 dependencies = [
  "libc",
-]
-
-[[package]]
-name = "cross_swap"
-version = "0.1.0"
-dependencies = [
- "alloy",
- "axum",
- "serde_json",
- "tokio",
 ]
 
 [[package]]
