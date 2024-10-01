@@ -1,11 +1,11 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: LicenseRef-FSL-1.1-ALv2
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract WorkerRegistry is Ownable {
     // Inital stake amount 0.1 ether
-    uint256 private STAKE_AMOUNT = 100_000_000_000_000_000;
+    uint256 public STAKE_AMOUNT = 100_000_000_000_000_000;
 
     struct Worker {
         uint256 stake;
