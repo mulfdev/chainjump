@@ -1,8 +1,7 @@
 # Specification: Distributed Cross-Chain Order Processor (ChainJump)
 
-## System Overview
-
-1. A Rust-based distributed system for processing ERC-7683 compliant cross-chain orders, using registered workers to initiate orders on the source chain and execute on the target chain. The system leverages blockchain for primary data storage with minimal local caching.
+#### System Overview
+> A Rust-based distributed system for processing ERC-7683 compliant cross-chain orders, using registered workers to initiate orders on the source chain and execute on the target chain.
 
 ## Core Components
 
